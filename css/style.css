@@ -73,10 +73,37 @@ input[type=text], input[type=email]{
     padding-left: 2%;
     margin-top: 3%;
     height: 40px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+input[type=text]:focus,  input[type=email]:focus{
+    outline:0px;
+    border: 2px solid white;
+}
+input::placeholder{
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 textarea{
     width: 100%;
     padding-left: 1%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+textarea:focus{
+    outline:0px;
+    border: 2px solid white;
+}
+textarea::placeholder{
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 #segunda_fila{
     margin-bottom: 1.5%;
@@ -86,25 +113,41 @@ input[type=submit]{
     height: 40px;
     width: 100%;
     cursor: pointer;
-    background-color: rgba(92, 218, 80, 0.6);
+    background-color: rgba(181, 197, 73, 0.6);
+    color: white;
     margin-bottom: 5%;
     border-color: transparent;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    transition: 0.7s;
 }
-input[type=submit]:hover {
-    background-color: rgba(0, 215, 35, 0.6);
+input[type=submit]:hover{
+/*-webkit-box-shadow: 8px 8px 32px -10px #768705;
+-moz-box-shadow: 8px 8px 32px -10px #768705;
+box-shadow: 8px 8px 32px -10px #768705;*/
+    border: 1px solid white;
+    background-color: transparent;
+    color: rgba(181, 197, 73, 1);
+    transition: 0.7s; 
 }
 #contact{
     z-index: 1000;
 }
 footer{
     z-index: 10;
-    background-image: url('../images/cesped.jpg');
+    background-image: url('../images/cesped_desenfocado.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 300px;
+    height: auto;
     background-position: center center;
-    opacity: 0.9;
+    color: white;
+    padding-bottom: 1.5%;
+}
+footer>.container{
+    margin-top: 1%;
+    padding-top: 1%;
+    text-align: center;
+    margin-bottom: 1%;
 }
 article{
     position: relative;
@@ -114,6 +157,7 @@ article{
 h1{
     padding: 2%;
 }
+/*
 .opaco{
     position: absolute;
     z-index: -1;
@@ -124,10 +168,14 @@ h1{
     opacity: .2;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 215, 35, 0.6);
-    /*
-    background-image: url('../images/paloma_mensajera.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    */
+    background-color: #fafafa;
+}*/
+h1{
+    font-size: 4.5em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.5em;
 }
