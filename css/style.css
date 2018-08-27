@@ -74,7 +74,6 @@ input[type=text], input[type=email]{
     margin-top: 3%;
     height: 40px;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 0.5em;
     color: white;
     border: 1px solid white;
     background-color: transparent;
@@ -87,12 +86,12 @@ input[type=text]:focus,  input[type=email]:focus{
 input::placeholder{
     color: white;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
 }
 textarea{
     width: 100%;
     padding-left: 1%;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 0.5em;
     color: white;
     border: 1px solid white;
     background-color: transparent;
@@ -104,6 +103,7 @@ textarea:focus{
 textarea::placeholder{
     color: white;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
 }
 #segunda_fila{
     margin-bottom: 1.5%;
@@ -178,4 +178,39 @@ h2{
 }
 h3{
     font-size: 1.5em;
+}
+.icono{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    text-align: left;
+}
+.icono:hover{
+    transition: 0.7s;
+    width: 40px;
+    height: 40px;
+}
+ul{
+    text-align: center;
+}
+.item-contact{
+    padding-top: 10px;
+    margin-bottom: 15px;
+    list-style:none;
+    margin-left: 150px;
+    display: block;
+    text-align: left;
+}
+li>span{
+    text-align: left;
+}
+li>span>a{
+    text-decoration: none;
+    color: white;
+}
+li>span>a:hover{
+    text-decoration: none;
+}
+li>a:hover{
+    text-decoration: none;
 }
