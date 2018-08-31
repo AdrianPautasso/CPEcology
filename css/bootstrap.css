@@ -558,11 +558,19 @@ pre code {
   .container {
     max-width: 540px;
   }
+    .center{
+    position:relative;
+    left:20%;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+    .center{
+    position:relative;
+    left:20%;
   }
 }
 
@@ -570,11 +578,19 @@ pre code {
   .container {
     max-width: 960px;
   }
+    .center{
+    position:relative;
+    left:20%;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  .center{
+    position:relative;
+    left:20%;
   }
 }
 

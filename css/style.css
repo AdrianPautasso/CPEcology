@@ -197,7 +197,7 @@ ul{
     padding-top: 10px;
     margin-bottom: 15px;
     list-style:none;
-    margin-left: 150px;
+    /*margin-left: 150px;*/
     display: block;
     text-align: left;
 }
